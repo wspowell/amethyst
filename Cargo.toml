@@ -24,7 +24,7 @@ direct3d = []
 profiler = ["thread_profiler/thread_profiler"]
 
 [dependencies]
-specs = { git = "https://github.com/slide-rs/specs.git" }
+specs = "0.8.1"
 amethyst_config = { path = "src/config/", version = "0.2.2" }
 amethyst_renderer = { path = "src/renderer", version = "0.4.2" }
 cgmath = "0.12"
