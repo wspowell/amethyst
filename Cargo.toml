@@ -24,6 +24,7 @@ direct3d = []
 profiler = ["thread_profiler/thread_profiler"]
 
 [dependencies]
+specs = { git = "https://github.com/slide-rs/specs.git" }
 amethyst_config = { path = "src/config/", version = "0.2.2" }
 amethyst_renderer = { path = "src/renderer", version = "0.4.2" }
 cgmath = "0.12"
@@ -36,7 +37,6 @@ gfx_device_gl = "0.13"
 gfx_window_glutin = "0.14"
 glutin = "0.7"
 imagefmt = "4.0"
-specs = { git = "https://github.com/slide-rs/specs.git" }
 threadpool = "1.3"
 ticketed_lock = "0.1"
 wavefront_obj = "5.0"
